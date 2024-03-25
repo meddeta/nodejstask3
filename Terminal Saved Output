@@ -1,0 +1,62 @@
+Last login: Sun Mar 24 22:06:01 on ttys002
+meddeta@Melicas-MacBook-Air ~ % mkdir nodejs-api-project
+cd nodejs-api-project
+npm init -y
+
+Wrote to /Users/meddeta/nodejs-api-project/package.json:
+
+{
+  "name": "nodejs-api-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+meddeta@Melicas-MacBook-Air nodejs-api-project % npm install express dotenv
+
+
+added 65 packages, and audited 66 packages in 3s
+
+13 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+meddeta@Melicas-MacBook-Air nodejs-api-project % cd ~/Desktop/nodejs-api-project 
+
+cd: no such file or directory: /Users/meddeta/Desktop/nodejs-api-project
+meddeta@Melicas-MacBook-Air nodejs-api-project % cd ~/Desktop/task3nodejs      
+ 
+meddeta@Melicas-MacBook-Air task3nodejs % nano .env
+
+
+  UW PICO 5.09                       File: .env                       Modified  
+
+USERNAME=admin
+PASSWORD=secret
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File Name to write : .env                                                       
+^G Get Help  ^T  To Files                                                     
+^C Cancel    TAB Complete                                                     
